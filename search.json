@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "slurmnbs",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "slurmnbs",
+    "section": "Install",
+    "text": "Install\npip install slurmnbs"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "slurmnbs",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "torch.html",
+    "href": "torch.html",
+    "title": "torch title",
+    "section": "",
+    "text": "import torch\nfrom torch import nn\nfrom torch.utils.data import DataLoader\nfrom torchvision import datasets\nfrom torchvision.transforms import ToTensor\n\n\ndatasets.MNIST('~',download=True)\n\nDownloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz\nDownloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to /N/u/demistry/BigRed200/MNIST/raw/train-images-idx3-ubyte.gz\nExtracting /N/u/demistry/BigRed200/MNIST/raw/train-images-idx3-ubyte.gz to /N/u/demistry/BigRed200/MNIST/raw\n\nDownloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz\nDownloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to /N/u/demistry/BigRed200/MNIST/raw/train-labels-idx1-ubyte.gz\nExtracting /N/u/demistry/BigRed200/MNIST/raw/train-labels-idx1-ubyte.gz to /N/u/demistry/BigRed200/MNIST/raw\n\nDownloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz\nDownloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to /N/u/demistry/BigRed200/MNIST/raw/t10k-images-idx3-ubyte.gz\nExtracting /N/u/demistry/BigRed200/MNIST/raw/t10k-images-idx3-ubyte.gz to /N/u/demistry/BigRed200/MNIST/raw\n\nDownloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz\nDownloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to /N/u/demistry/BigRed200/MNIST/raw/t10k-labels-idx1-ubyte.gz\nExtracting /N/u/demistry/BigRed200/MNIST/raw/t10k-labels-idx1-ubyte.gz to /N/u/demistry/BigRed200/MNIST/raw\n\n\n\n100%|██████████| 9912422/9912422 [00:00&lt;00:00, 311919208.07it/s]\n100%|██████████| 28881/28881 [00:00&lt;00:00, 56420910.03it/s]\n100%|██████████| 1648877/1648877 [00:00&lt;00:00, 107670497.52it/s]\n100%|██████████| 4542/4542 [00:00&lt;00:00, 11114660.89it/s]\n\n\nDataset MNIST\n    Number of datapoints: 60000\n    Root location: /N/u/demistry/BigRed200\n    Split: Train\n\n\n\n!nvidia-smi\n\n/bin/bash: nvidia-smi: command not found\n\n\n\ntorch.cuda.is_available()\n\nFalse\n\n\n\nDataLoader()"
+  }
+]
