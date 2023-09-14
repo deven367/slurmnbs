@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "slurmnbs"
+  site-url: "https://deven367.github.io/slurmnbs"
+  description: "slurm nbs"
+  repo-branch: main
+  repo-url: "https://github.com/deven367/slurmnbs"
